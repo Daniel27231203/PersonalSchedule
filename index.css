@@ -121,7 +121,7 @@ p:nth-child(1) {
   font-size: 15px;
 }
 
-.nthP {
+.box:nth-child(even) p {
   background: rgba(222, 153, 25, 0.469);
 }
 
