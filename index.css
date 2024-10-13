@@ -18,15 +18,16 @@
 .week {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin: 20px 0;
+  justify-content: space-between;
+  width: 1300px;
 }
 .week h5 {
-  width: 45px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 15px;
 }
+
 h3 {
-  border-bottom: 2px solid gray;
-  width: 150px;
   text-align: center;
   font-size: 10px;
 }
@@ -34,11 +35,211 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
+  /* gap: 16px; */
 }
 .block {
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 10px;
+  width: 1300px;
+}
+
+h5:nth-child(1) {
+  border-left: 1px solid orange;
+  border-top: 1px solid orange;
+  border-right: 1px solid orange;
+  border-radius: 15px 15px 0 0;
+  width: 60px;
+
+  background: orange;
+}
+h5:nth-child(2) {
+  border-left: 1px solid yellow;
+  border-top: 1px solid yellow;
+  border-right: 1px solid yellow;
+  border-radius: 15px 15px 0 0;
+  background: rgb(244, 237, 32);
+  width: 160px;
+}
+h5:nth-child(3) {
+  border-left: 1px solid rgb(136, 231, 95);
+  border-top: 1px solid rgb(136, 231, 95);
+  border-right: 1px solid rgb(136, 231, 95);
+  border-radius: 15px 15px 0 0;
+  background: rgb(136, 231, 95);
+  width: 160px;
+}
+h5:nth-child(4) {
+  border-left: 1px solid rgb(6, 205, 112);
+  border-top: 1px solid rgb(6, 205, 112);
+  border-right: 1px solid rgb(6, 205, 112);
+  border-radius: 15px 15px 0 0;
+  background: rgb(6, 205, 112);
+  width: 160px;
+}
+h5:nth-child(5) {
+  border-left: 1px solid rgb(230, 158, 230);
+  border-top: 1px solid rgb(230, 158, 230);
+  border-right: 1px solid rgb(230, 158, 230);
+  border-radius: 15px 15px 0 0;
+  background: rgb(230, 158, 230);
+  width: 160px;
+}
+h5:nth-child(6) {
+  border-left: 1px solid rgb(131, 15, 131);
+  border-top: 1px solid rgb(131, 15, 131);
+  border-right: 1px solid rgb(131, 15, 131);
+  border-radius: 15px 15px 0 0;
+  background: rgb(131, 15, 131);
+  color: white;
+  width: 160px;
+}
+h5:nth-child(7) {
+  border-left: 1px solid rgb(115, 115, 242);
+  border-top: 1px solid rgb(115, 115, 242);
+  border-right: 1px solid rgb(115, 115, 242);
+  border-radius: 15px 15px 0 0;
+  background: rgb(115, 115, 242);
+  width: 160px;
+}
+h5:nth-child(8) {
+  border-left: 1px solid rgb(7, 7, 191);
+  border-top: 1px solid rgb(7, 7, 191);
+  border-right: 1px solid rgb(7, 7, 191);
+  border-radius: 15px 15px 0 0;
+  background: rgb(7, 7, 191);
+  color: white;
+  width: 160px;
+}
+
+p:nth-child(1) {
+  border-left: 2px solid orange;
+  border-right: 2px solid orange;
+  width: 60px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+.nthP {
+  background: rgba(222, 153, 25, 0.469);
+}
+
+.borBot {
+  border-bottom: 2px solid rgb(248, 161, 0);
+  border-radius: 0 0 15px 15px;
+}
+
+.box h3:nth-child(2) {
+  border-left: 2px solid yellow;
+  border-right: 2px solid yellow;
+  width: 160px;
+  padding: 10px;
+  margin: 0 0 0 16px;
+}
+.box2 h3:nth-child(2) {
+  background: rgba(209, 209, 105, 0.63);
+}
+
+.borBot2 h3:nth-child(2) {
+  border-radius: 0 0 15px 15px;
+  border-bottom: 2px solid yellow;
+}
+
+.box h3:nth-child(3) {
+  border-left: 2px solid rgb(136, 231, 95);
+  border-right: 2px solid rgb(136, 231, 95);
+  width: 160px;
+  padding: 10px;
+  margin: 0 0 0 18px;
+}
+.box2 h3:nth-child(3) {
+  background: rgba(157, 232, 132, 0.457);
+}
+
+.borBot2 h3:nth-child(3) {
+  border-radius: 0 0 15px 15px;
+  border-bottom: 2px solid rgb(136, 231, 95);
+}
+
+.box h3:nth-child(4) {
+  border-left: 2px solid rgb(6, 205, 112);
+  border-right: 2px solid rgb(6, 205, 112);
+  width: 160px;
+  padding: 10px;
+  margin: 0 0 0 17px;
+}
+.box2 h3:nth-child(4) {
+  background: rgb(6, 205, 112);
+}
+
+.borBot2 h3:nth-child(4) {
+  border-radius: 0 0 15px 15px;
+  border-bottom: 2px solid rgb(6, 205, 112);
+}
+
+.box h3:nth-child(5) {
+  border-left: 2px solid rgb(230, 158, 230);
+  border-right: 2px solid rgb(230, 158, 230);
+  width: 160px;
+  padding: 10px;
+  margin: 0 0 0 17px;
+}
+.box2 h3:nth-child(5) {
+  background: rgba(226, 174, 226, 0.713);
+}
+
+.borBot2 h3:nth-child(5) {
+  border-radius: 0 0 15px 15px;
+  border-bottom: 2px solid rgb(230, 158, 230);
+}
+
+.box h3:nth-child(6) {
+  border-left: 2px solid rgb(131, 15, 131);
+  border-right: 2px solid rgb(131, 15, 131);
+  width: 160px;
+  padding: 10px;
+  margin: 0 0 0 18px;
+}
+.box2 h3:nth-child(6) {
+  background: rgba(131, 15, 131, 0.454);
+  color: white;
+}
+
+.borBot2 h3:nth-child(6) {
+  border-radius: 0 0 15px 15px;
+  border-bottom: 2px solid rgb(131, 15, 131);
+}
+
+.box h3:nth-child(7) {
+  border-left: 2px solid rgb(115, 115, 242);
+  border-right: 2px solid rgb(115, 115, 242);
+  width: 160px;
+  padding: 10px;
+  margin: 0 0 0 18px;
+}
+.box2 h3:nth-child(7) {
+  background: rgba(115, 115, 242, 0.669);
+}
+
+.borBot2 h3:nth-child(7) {
+  border-radius: 0 0 15px 15px;
+  border-bottom: 2px solid rgb(115, 115, 242);
+}
+
+.box h3:nth-child(8) {
+  border-left: 2px solid rgb(7, 7, 191);
+  border-right: 2px solid rgb(7, 7, 191);
+  width: 160px;
+  padding: 10px;
+  margin: 0 0 0 15px;
+}
+.box2 h3:nth-child(8) {
+  background: rgba(7, 7, 191, 0.531);
+  color: white;
+}
+
+.borBot2 h3:nth-child(8) {
+  border-radius: 0 0 15px 15px;
+  border-bottom: 2px solid rgb(7, 7, 191);
 }
